@@ -1,14 +1,12 @@
-
 dependencies:
-- alias: expose
-  name: exposecontroller
+- name: exposecontroller
   repository: http://chartmuseum.jenkins-x.io
   version: 2.3.56
-- alias: cleanup
-  name: exposecontroller
+- name: exposecontroller
   repository: http://chartmuseum.jenkins-x.io
   version: 2.3.56
-- alias: preview
-  name: ttc-dashboard-ui
+- name: ttc-dashboard-ui
   repository: file://../ttc-dashboard-ui
   version: 0.0.0-SNAPSHOT-master-10
+digest: sha256:75af6ca771239b2f03ea4ea45851bea7c87a221a46221e788138affc8a8e0dea
+generated: "2019-07-05T06:22:14.842602307Z"
