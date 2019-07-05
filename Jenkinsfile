@@ -38,7 +38,7 @@ pipeline {
       }
       stage('Build Release') {
         when {
-          branch 'develop'
+          branch 'master'
         }
         steps {
           container('nodejs') {
@@ -67,7 +67,7 @@ pipeline {
       }
       stage('Promote to Environments') {
         when {
-          branch 'develop'
+          branch 'master'
         }
         steps {
           dir ('./charts/ttc-dashboard-ui') {
